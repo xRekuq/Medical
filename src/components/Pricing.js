@@ -1,8 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import './Pricing.css'; // Import custom CSS for additional styling
+import './Pricing.css';
 
-// Import icon image
 import HeartIcon from '../assets/images/heart-empty-icon.png';
 import CheckmarkIcon from '../assets/images/checkmark.png';
 import GrayCheckmarkIcon from '../assets/images/gray-checkmark.png';

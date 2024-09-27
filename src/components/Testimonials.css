@@ -1,13 +1,11 @@
-/* Testimonials.css */
-
 .testimonials-section {
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff;
     padding: 3rem 0;
 }
 
 .testimonials-section h4 {
     font-size: 1.25rem;
-    color: #007bff; /* Bootstrap primary color */
+    color: #007bff; 
     text-align: left;
 }
 
@@ -33,7 +31,7 @@
 }
 
 .star-rating {
-    width: 100px; /* Adjust the size of the star rating image */
+    width: 100px;
     height: auto;
     margin-bottom: 1rem;
 }

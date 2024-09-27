@@ -2,13 +2,11 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Testimonials.css';
 
-// Import star image
-import StarRating from '../assets/images/star-rating.png'; // Adjust the path as necessary
+import StarRating from '../assets/images/star-rating.png'; 
 
-// Import reviewer images
-import Reviewer1 from '../assets/images/reviewer1.png'; // Adjust the path as necessary
-import Reviewer2 from '../assets/images/reviewer2.png'; // Adjust the path as necessary
-import Reviewer3 from '../assets/images/reviewer3.png'; // Adjust the path as necessary
+import Reviewer1 from '../assets/images/reviewer1.png';
+import Reviewer2 from '../assets/images/reviewer2.png';
+import Reviewer3 from '../assets/images/reviewer3.png';
 
 const Testimonials = () => {
     const testimonials = [

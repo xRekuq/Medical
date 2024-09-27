@@ -1,21 +1,19 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import './Doctors.css'; // Import custom CSS for additional styling
+import './Doctors.css';
 
-// Import doctor images from the assets folder
 import Doctor1 from '../assets/images/doctor1.jpg';
 import Doctor2 from '../assets/images/doctor2.jpg';
 import Doctor3 from '../assets/images/doctor3.jpg';
 
-// Import icons
 import HeartIcon from '../assets/images/heart-icon.png';
 import CartIcon from '../assets/images/cart-icon.png';
 import EyeIcon from '../assets/images/eye-icon.png';
 
-import Stopwatch from '../assets/images/stopwatch.png'; // 22hr 30min
+import Stopwatch from '../assets/images/stopwatch.png';
 import Download from '../assets/images/download.png';
-import Progress from '../assets/images/progress.png'; // 64 lessons
-import Lesson from '../assets/images/lesson.png'; // Progress
+import Progress from '../assets/images/progress.png';
+import Lesson from '../assets/images/lesson.png';
 
 const Doctors = () => {
     const doctors = [

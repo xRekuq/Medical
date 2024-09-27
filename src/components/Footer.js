@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Footer.css';
 
-// Import images
 import PhoneIcon from '../assets/images/phone.png';
 import EnvelopeIcon from '../assets/images/envelope.png';
 import MapMarkerIcon from '../assets/images/map-marker.png';
