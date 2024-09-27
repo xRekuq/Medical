@@ -1,0 +1,35 @@
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: #6c757d;
+}
+
+.nav-link:hover {
+    color: #5a6268;
+}
+
+.login-btn {
+    color: #007bff;
+    font-weight: 700;
+    border: none;
+    padding: 0;
+    text-decoration: none;
+    background-color: transparent;
+    margin-right: 15px;
+}
+
+.login-btn:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.btn-primary {
+    font-weight: 700;
+    padding: 0.5rem 1.5rem;
+    margin-left: 15px;
+}

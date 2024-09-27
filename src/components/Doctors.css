@@ -1,0 +1,163 @@
+/* Doctors.css */
+
+.doctors-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+.doctors-section h4 {
+    font-size: 1.25rem;
+    color: #007bff;
+    text-align: left;
+}
+
+.doctors-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.doctors-section p.lead {
+    color: #6c757d;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.doctor-profile {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.doctor-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.sale-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.overlay-icons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    opacity: 1;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.doctor-details {
+    margin-bottom: 20px;
+}
+
+.department {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.doctor-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.sales-info {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.pricing {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #6c757d;
+    margin-right: 10px;
+}
+
+.discounted-price {
+    font-weight: 700;
+    color: #28a745;
+}
+
+.rating {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #f1c40f;
+}
+
+.course-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.course-details span {
+    display: flex;
+    align-items: center;
+}
+
+.course-details i {
+    margin-right: 5px;
+}
+
+.text-center .btn {
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+}

@@ -1,0 +1,58 @@
+.activity-section {
+    background-color: #f8f9fa;
+}
+
+.activity-section h4 {
+    font-size: 1.25rem;
+    color: #007bff;
+    text-align: left;
+}
+
+.activity-section h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.activity-section p.lead {
+    color: #6c757d;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.activity-icon img {
+    max-width: 60px;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.activity-divider {
+    width: 40px;
+    border-width: 2px;
+    border-color: #dc3545;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body {
+    padding: 2rem 1.5rem;
+}
+
+.card {
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
