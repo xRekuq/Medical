@@ -1,0 +1,66 @@
+/* Newsletter.css */
+
+.newsletter-section {
+    background-color: #ffffff; /* White background */
+    padding: 3rem 0;
+}
+
+.newsletter-section h4 {
+    font-size: 1.25rem;
+    color: #007bff; /* Bootstrap primary color */
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.newsletter-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.newsletter-section p.lead {
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-input {
+    border-radius: 0.5rem 0 0 0.5rem; /* Rounded left corners */
+    border-right: none; /* Remove border on the right side */
+    height: 50px; /* Set a consistent height */
+    font-size: 1rem; /* Adjust font size */
+    flex: 2; /* Allow the input to take up more space */
+    min-width: 600px; /* Ensure the textbox is sufficiently wide */
+    padding: 0 1.5rem; /* Add padding inside the textbox */
+    box-shadow: none; /* Remove shadow to blend with button */
+    border: 1px solid #ced4da; /* Ensures there is a border around the input */
+    background-color: #f1f1f1; /* Light gray background color */
+    color: #333; /* Darker text color inside the input */
+}
+
+.subscribe-button {
+    border-radius: 0 0.5rem 0.5rem 0; /* Rounded right corners */
+    height: 50px; /* Set a consistent height */
+    font-size: 1rem; /* Adjust font size */
+    padding: 0 2rem; /* Add padding to the button */
+    background-color: #007bff; /* Primary blue background */
+    border: 1px solid #007bff; /* Ensure the border matches the button background */
+    margin-left: -1px; /* Remove the gap between input and button */
+    box-shadow: none; /* Remove shadow to blend with textbox */
+}
+
+.subscribe-button:hover {
+    background-color: #0056b3; /* Darken blue on hover */
+}
+
+.newsletter-form input:focus, .subscribe-button:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: none; /* Ensure no shadow on focus for unified look */
+}

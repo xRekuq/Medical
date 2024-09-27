@@ -1,0 +1,88 @@
+/* Footer.css */
+
+.footer-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.footer-section h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.footer-section ul {
+    padding: 0;
+    list-style: none;
+    line-height: 2;
+    text-align: left;
+}
+
+.footer-section ul li {
+    color: #6c757d;
+    font-weight: bold;
+    display: flex; /* Use flexbox for the list items */
+    align-items: center; /* Align icon and text vertically */
+    margin-bottom: 1rem; /* Add spacing between items */
+}
+
+.contact-icon {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    margin-right: 10px;
+    flex-shrink: 0; /* Prevent the icon from shrinking */
+}
+
+.contact-info li {
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow if the content is too wide */
+    text-overflow: ellipsis; /* Add ellipsis if the text is too long */
+    flex: 1; /* Allow the text to take up available space */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer-content > div {
+    flex: 1;
+    min-width: 150px;
+    margin-right: 2rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid #dee2e6;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section p {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-align: left;
+}

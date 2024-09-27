@@ -1,0 +1,71 @@
+/* Testimonials.css */
+
+.testimonials-section {
+    background-color: #ffffff; /* White background */
+    padding: 3rem 0;
+}
+
+.testimonials-section h4 {
+    font-size: 1.25rem;
+    color: #007bff; /* Bootstrap primary color */
+    text-align: left;
+}
+
+.testimonials-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.testimonials-section p.lead {
+    color: #6c757d;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.testimonial-card {
+    border: none;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.star-rating {
+    width: 100px; /* Adjust the size of the star rating image */
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.review-text {
+    color: #6c757d;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.reviewer-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reviewer-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.reviewer-title {
+    font-size: 0.9rem;
+    color: #6c757d;
+}

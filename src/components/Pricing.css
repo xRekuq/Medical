@@ -1,0 +1,130 @@
+/* Pricing.css */
+
+.pricing-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+.pricing-section h4 {
+    font-size: 1.25rem;
+    color: #007bff; /* Bootstrap primary color */
+    text-align: left;
+}
+
+.pricing-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.pricing-section p.lead {
+    color: #6c757d;
+    text-align: left;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.pricing-card {
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem 1.5rem;
+    position: relative;
+}
+
+.pricing-card h4 {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    font-weight: bold; /* Make the text bold */
+    color: #000; /* Set the text color to black */
+    text-align: left; /* Optional: Center the text */
+}
+
+.icon-container {
+    margin-bottom: 1rem;
+    text-align: left; /* Align the icon container to the left */
+    padding-left: 1.5rem; /* Add padding to position it more precisely */
+}
+
+.pricing-icon {
+    width: 80px; /* Adjust the size as needed */
+    height: 80px; /* Adjust the size as needed */
+    display: block;
+    margin: 0; /* Remove auto margin to prevent centering */
+}
+
+.pricing-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff; /* Set the pricing text color to blue */
+}
+
+.per-month {
+    font-size: 1rem;
+    color: #007bff; /* Set the "Per Month" text color to blue */
+    font-weight: bold; /* Optional: make "Per Month" text bold as well */
+}
+
+.pricing-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 0; /* Adjust padding to make the button taller and maintain width */
+    margin-top: 1rem;
+    border-radius: 5px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Center the button horizontally */
+    text-align: center; /* Ensure text is centered inside the button */
+}
+
+.new-badge {
+    position: absolute;
+    top: -15px; /* Adjusted to position the badge better */
+    right: -15px; /* Adjusted to position the badge better */
+    background-color: #f39c12; /* Orange color */
+    color: #fff; /* White text color */
+    width: 70px; /* Make the badge wider to form a circle */
+    height: 70px; /* Equal height to make it circular */
+    border-radius: 50%; /* Make the badge a circle */
+    display: flex; /* Use flexbox to center text */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    font-size: 0.9rem; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    font-size: 18px;
+    padding: 0; /* Remove padding as the size is controlled by width and height */
+}
+
+.pricing-card ul {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.pricing-card ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.short-description {
+    text-align: left; /* Align the short description text to the left */
+    color: #6c757d; /* Optional: Adjust color to match other text */
+    font-weight: bold; /* Make the short description bold */
+}
+
+.description {
+    text-align: left; /* Align the description text to the left */
+    color: #6c757d; /* Optional: Adjust color to match other text */
+    font-weight: bold; /* Make the description bold */
+}
+
+.checkmark-icon {
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    margin-right: 10px; /* Space between the icon and text */
+    vertical-align: middle; /* Align icon with the middle of the text */
+}

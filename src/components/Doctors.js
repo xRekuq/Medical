@@ -1,14 +1,21 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import './Doctors.css';
+import './Doctors.css'; // Import custom CSS for additional styling
 
+// Import doctor images from the assets folder
 import Doctor1 from '../assets/images/doctor1.jpg';
 import Doctor2 from '../assets/images/doctor2.jpg';
 import Doctor3 from '../assets/images/doctor3.jpg';
 
+// Import icons
 import HeartIcon from '../assets/images/heart-icon.png';
 import CartIcon from '../assets/images/cart-icon.png';
 import EyeIcon from '../assets/images/eye-icon.png';
+
+import Stopwatch from '../assets/images/stopwatch.png'; // 22hr 30min
+import Download from '../assets/images/download.png';
+import Progress from '../assets/images/progress.png'; // 64 lessons
+import Lesson from '../assets/images/lesson.png'; // Progress
 
 const Doctors = () => {
     const doctors = [
@@ -77,23 +84,25 @@ const Doctors = () => {
                                     </div>
                                 </div>
                                 <div className="doctor-details">
-                                    <div className="department text-primary">{doctor.department}</div>
+                                <div className="department text-primary">
+                                        <span>{doctor.department}</span>
+                                        <div className="rating">
+                                            <i className="fas fa-star text-warning"></i> ⭐ {doctor.rating}
+                                        </div>
+                                    </div>
                                     <div className="doctor-name font-weight-bold">{doctor.name}</div>
                                     <div className="description">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</div>
                                     <div className="sales-info">
-                                        <i className="fas fa-shopping-cart"></i> {doctor.sales} Sales
+                                        <span><img src={Download} alt="downloads" className="course-icon" /> {doctor.sales} Sales</span>
                                     </div>
                                     <div className="pricing">
                                         <span className="original-price">{doctor.price}</span> 
                                         <span className="discounted-price text-success">{doctor.discountedPrice}</span>
                                     </div>
-                                    <div className="rating">
-                                        <i className="fas fa-star text-warning"></i> {doctor.rating}
-                                    </div>
                                     <div className="course-details">
-                                        <span><i className="far fa-clock"></i> {doctor.duration}</span>
-                                        <span><i className="far fa-file-alt"></i> {doctor.lessons} Lessons</span>
-                                        <span><i className="far fa-check-circle"></i> {doctor.progress}</span>
+                                        <span><img src={Stopwatch} alt="Duration" className="course-icon" /> {doctor.duration}</span>
+                                        <span><img src={Lesson} alt="Lessons" className="course-icon" /> {doctor.lessons} Lessons</span>
+                                        <span><img src={Progress} alt="Progress" className="course-icon" /> {doctor.progress}</span>
                                     </div>
                                 </div>
                                 <div className="text-center">
